@@ -6,8 +6,8 @@ smtp_object.ehlo()
 smtp_object.starttls()
 s=socket.socket()
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR , 1) 
-port = 7868
-ip= "192.168.43.179"
+port =   # port number 
+ip=   # ip addresh of your system
 s.bind((ip,port))
 s.listen()
 
